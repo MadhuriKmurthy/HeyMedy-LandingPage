@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,500,700);
+
+
+.clearfix {
+    display: block
+}
+
+
+
+.clearfix:after,
+.wrap:after,
+
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+
+
+
+.simple {
+    padding: 104px 0 89px
+}
+
+.simple-content {
+    float: right;
+    padding-top: 37px;
+    width: 420px;
+}
+
+.simple-content h3 {
+    font: 700 48px/48px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: solid 6px #f4f4f4;
+    padding-bottom: 43px;
+    margin-bottom: 43px;
+}
+
+.simple-content ul {
+    margin-bottom: 5px
+}
+
+.simple-content ul li {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 31px;
+}
+
+.simple-content ul li img {
+    float: left;
+    margin-right: 23px;
+}
+
+.simple-content ul li span {
+    display: block;
+    overflow: hidden;
+}
+
+.simple-img {
+    float: left;
+    max-width: 587px;
+    width: 53%;
+}
+
+.simple-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.comments {
+    background: #10bbf1;
+    color: white;
+    text-align: center;
+    padding: 70px 0 60px;
+}
+
+.comments .box {
+    display: none;
+    padding: 0 195px 55px;
+}
+
+.comments .box.visible {
+    display: block
+}
+
+.comments .box h4 {
+    font: 500 36px/46px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 37px;
+}
+
+.comments .box h4 a {
+    font-weight: bold;
+    color: white;
+}
+
+.comments .box h4 a:hover {
+    text-decoration: underline
+}
+
+.comments .box p {
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.comments .tabs {
+    display: block;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.comments .tabs li {
+    display: inline-block;
+    margin: 0 8px;
+    width: 11px;
+    height: 11px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+    cursor: pointer;
+    -moz-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    -ms-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    -o-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.comments .tabs li:hover {
+    background-color: white
+}
+
+.comments .tabs li.active {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px white;
+}
+
+.comments .tab {
+    position: relative
+}
+
+.comments .tab-prev,
+.comments .tab-next {
+    position: absolute;
+    left: 98px;
+    top: 94px;
+    width: 23px;
+    height: 16px;
+    background-position: 0 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.comments .tab-prev:hover,
+.comments .tab-next:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.comments .tab-next {
+    left: auto;
+    right: 98px;
+    background-position: -50px 0;
+}
+
+.video-title {
+    font: bold 48px/48px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.video-subtitle {
+    font-size: 19px;
+    line-height: 25px;
+    color: #919191;
+    text-align: center;
+}
+
+.video {
+    padding: 108px 0 116px
+
+  .simple-content {
+      float: none;
+      width: auto;
+      padding-top: 0;
+  }
+
+  .simple-content h3 {
+      font-size: 36px;
+      line-height: 46px;
+      text-align: center;
+  }
+
+  .simple-content ul {
+      max-width: 310px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .simple-img {
+      float: none;
+      width: auto;
+      max-width: none;
+      margin-left: -80px;
+      margin-right: -80px;
+  }
+
+ 
